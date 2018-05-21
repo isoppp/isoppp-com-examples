@@ -1,0 +1,24 @@
+{
+  "name": "stylelint-cli-example",
+  "version": "1.0.0",
+  "description": "stylelint cli example for japanese",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isoppp/isoppp-note-example.git"
+  },
+  "keywords": [
+    "stylelint",
+    "jp",
+    "hot-to-use"
+  ],
+  "author": "isoppp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isoppp/isoppp-note-example/issues"
+  },
+  "homepage": "https://github.com/isoppp/isoppp-note-example#readme"
+}
