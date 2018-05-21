@@ -10,5 +10,6 @@ module.exports = {
     'color-hex-case': 'lower', // https://github.com/stylelint/stylelint/blob/master/lib/rules/color-hex-case/README.md
     'color-hex-length': 'short', // https://github.com/stylelint/stylelint/blob/master/lib/rules/color-hex-length/README.md
     'no-duplicate-selectors': null,
+    'order/properties-alphabetical-order': true,
   },
 }
