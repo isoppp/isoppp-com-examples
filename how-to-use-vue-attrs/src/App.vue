@@ -1,17 +1,44 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h2>Original Input with $attrs</h2>
+
+    <base-input
+      type="number"
+      placeholder="number"
+      disabled
+      v-model="inputValue"
+    ></base-input>
+
+    <h2>Original Nested Component with $attrs</h2>
+
+    <nested-parent
+      color="red"
+      size="14px"
+      caption="caption is here"
+    />
+
+    <nested-parent
+      color="blue"
+      size="18px"
+      :rounded="true"
+    />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import BaseInput from './components/BaseInput'
+import NestedParent from './components/NestedParent'
 
 export default {
   name: "app",
   components: {
-    HelloWorld
+    BaseInput,
+    NestedParent
+  },
+  data() {
+    return {
+      inputValue: ''
+    }
   }
 };
 </script>
