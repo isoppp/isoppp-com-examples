@@ -22,6 +22,10 @@
       size="18px"
       :rounded="true"
     />
+
+    <h2>Original Nested Component with v-bind</h2>
+
+    <nested-parent v-bind="options"/>
   </div>
 </template>
 
@@ -37,7 +41,12 @@ export default {
   },
   data() {
     return {
-      inputValue: ''
+      inputValue: '',
+      options: {
+        color: 'orange',
+        size: '10px',
+        caption: 'v-bind example'
+      }
     }
   }
 };
