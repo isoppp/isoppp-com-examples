@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "how-to-use-stylelint/package.json",
+        "how-to-use-vue-attrs/package.json"
+      ]
+    }
+  }
+}
